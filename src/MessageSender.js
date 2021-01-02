@@ -9,9 +9,9 @@ import { db } from "./firebase";
 import firebase from "firebase";
 
 function MessageSender() {
-  const [{ user }] = useStateValue();
-  const [image, setimage] = useState("");
   const [input, setinput] = useState("");
+  const [image, setimage] = useState("");
+  const [{ user }, dispatch] = useStateValue();
 
   const clickHandler = (e) => {
     e.preventDefault();
@@ -19,7 +19,7 @@ function MessageSender() {
       message: input,
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       profilePic: user.photoURL,
-      username: user.username,
+      username: user.displayName,
       image: image,
     });
     setinput("");
@@ -44,7 +44,7 @@ function MessageSender() {
           <button type="submit" onClick={clickHandler}>
             Hidden button
           </button>
-        </form>
+        </form>:😄
       </div>
       <div className="messageSender__bottom">
         <div className="messageSender__option">

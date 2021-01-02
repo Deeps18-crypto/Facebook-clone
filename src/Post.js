@@ -8,7 +8,7 @@ import NearMeIcon from "@material-ui/icons/NearMe";
 import { ExpandMoreOutlined } from "@material-ui/icons";
 
 function Post({ profilePic, image, username, timestamp, message }) {
-  return (
+  return ( 
     <div className="post">
       <div className="post__top">
         <Avatar src={profilePic} className="post__avatar" />
