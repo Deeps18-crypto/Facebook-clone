@@ -2,7 +2,9 @@
 
 This project has exact functionaly of facebook.
 
-The project contians story , sidebar , message and widgets tabs.
+The project contains story , sidebar , message and widgets tabs.
+
+The App contains Google authentication which is used to signup with Google account
 
 The clone contains Router functionality it makes the app super fast without refreshing the page.
 
