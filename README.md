@@ -1,6 +1,6 @@
 # FaceBook - Clone
 
-This project has exact functionaly of facebook.
+This project has exact functionaly and UI of facebook.
 
 The project contains story , sidebar , message and widgets tabs.
 
