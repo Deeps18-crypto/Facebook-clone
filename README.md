@@ -9,7 +9,7 @@
 
 * The user can post message and image, which is stored in the database(Firebase Firestore).
 
-* The project also uses CONTEXT API to maintain the state.
+* The project also uses CONTEXT API to maintain the state
 
 
 
